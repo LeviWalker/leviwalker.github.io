@@ -23,14 +23,14 @@ repository               : "LeviWalker/leviwalker.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "levi-headshot.jpg"
   name             : "Levi Walker"
   pronouns         :   
-  bio              : "Applied Mathematics Student at Virginia Tech"
-  location         : "Blacksburg, Virginia"
-  employer         : 
+  bio              : "Ph.D. Student at the Oden Institute for Computational Engineering and Sciences"
+  location         : "Austin, Texas"
+  employer         : "University of Texas at Austin"
   uri              : # URL
-  email            : "ljwalker@vt.edu" 
+  email            : "ljwalker@my.utexas.edu" 
 
   # Academic websites
   academia         : # URL
@@ -95,7 +95,7 @@ publication_category:
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
@@ -192,6 +192,11 @@ exclude:
   - README
   - tmp
   - vendor
+  - _teaching # remove this when I have stuff to put there
+  - _talks # also remove when I have stuff to put there
+  - _posts # also also remove when I have stuff
+  - _portfolio # also also also remove when I have stuff
+  - _publications # also also also also remove when I have stuff
 keep_files:
   - .git
   - .svn

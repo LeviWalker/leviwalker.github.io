@@ -7,8 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-Hello, my name is Levi Walker. I am an undergraduate senior at Virginia Tech
-studying both Mathematics and Computational Modeling and Data Analytics (CMDA).
+Welcome to my website!
+I am a first-year Ph.D student at the Unversity of Texas at Austin
+in the Oden Institute for Computational Engineering and Sciences.
+Before coming to UT Austin, I obtained
+a B.S. in Mathematics and a
+B.S. in Computational Modeling and Data Analytics (CMDA) at Virginia Tech.
 
 Research Interests
 ====

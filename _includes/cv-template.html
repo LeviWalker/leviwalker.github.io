@@ -17,6 +17,7 @@
 
 <div class="cv-container">
   <!-- Basic Information -->
+  <br>
   <div class="cv-section cv-header">
     <h1>{{ cv.basics.name }}</h1>
     {% if cv.basics.label %}
@@ -26,7 +27,9 @@
     <div class="cv-contact">
       {% if cv.basics.email %}
       <div class="cv-contact-item">
-        <i class="fas fa-envelope"></i> {{ cv.basics.email }}
+        <i class="fas fa-envelope"></i>
+        <!-- {{ cv.basics.email }} -->
+          <a href="mailto:{{ cv.basics.email }}" target="_blank">{{ cv.basics.email }}</a>
       </div>
       {% endif %}
       
@@ -38,7 +41,8 @@
       
       {% if cv.basics.website %}
       <div class="cv-contact-item">
-        <i class="fas fa-globe"></i> <a href="{{ cv.basics.website }}" target="_blank">{{ cv.basics.website }}</a>
+        <i class="fas fa-globe"></i>
+          <a href="{{ cv.basics.website }}" target="_blank">{{ cv.basics.website }}</a>
       </div>
       {% endif %}
       

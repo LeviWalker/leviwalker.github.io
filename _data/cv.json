@@ -1,16 +1,16 @@
 {
   "basics": {
     "name": "Levi Walker",
-    "email": "ljw@vt.edu",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently an undergraduate student at Virginia Tech",
+    "#phone": "",
+    "website": "https://leviwalker.github.io",
+    "email": "ljwalker@my.utexas.edu",
+    "summary": "I am current Ph.D. student in the Oden Institute for Computational Engineering and Sciences at the University of Texas at Austin.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Blacksburg, Virginia",
-      "countryCode": "US",
-      "region": ""
+      "city": "Austin",
+      "#countryCode": "United States of America",
+      "region": "Texas"
     },
     "profiles": [
       {
@@ -25,8 +25,27 @@
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Analytical Mechanics Associates",
+      "position": "AI/ML Research Associate",
+      "website": "ama-inc.com",
+      "startDate": "June 2026",
+      "endDate": "August 2026",
+      "#summary": "summary",
+      "#highlights": ["hi", "hi 2"]
+    }
+  ],
   "education": [
+    {
+      "institution": "The University of Texas at Austin",
+      "area": "Ph.D. Computational Science, Engineering, and Mathematics",
+      "studyType": "phd hi ",
+      "startDate": "2026",
+      "endDate": "present",
+      "gpa": null,
+      "courses": []
+    },
     {
       "institution": "Virginia Polytechnic Institute and State University",
       "area": "B.S. Mathematics",
@@ -50,7 +69,7 @@
   "languages": [],
   "interests": [],
   "references": [],
-  "publications": [
+  "#publications": [
     {
       "name": "Paper Title Number 1",
       "publisher": "Journal 1",
@@ -80,7 +99,7 @@
       "summary": "This paper is about fixing template issue #693."
     }
   ],
-  "presentations": [
+  "#presentations": [
     {
       "name": "Talk 1 on Relevant Topic in Your Field",
       "event": "UC San Francisco, Department of Testing",
@@ -110,7 +129,7 @@
       "description": ""
     }
   ],
-  "teaching": [
+  "#teaching": [
     {
       "course": "Teaching experience 1",
       "institution": "University 1, Department",
@@ -126,7 +145,7 @@
       "description": ""
     }
   ],
-  "portfolio": [
+  "#portfolio": [
     {
       "name": "Portfolio item number 1",
       "category": "portfolio",
