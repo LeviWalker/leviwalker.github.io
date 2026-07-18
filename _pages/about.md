@@ -17,8 +17,7 @@ Welcome to my website!
 I am a first-year Ph.D student at the Unversity of Texas at Austin
 in the [Oden Institute for Computational Engineering and Sciences](https://oden.utexas.edu/).
 
-Before coming to the
-UT Austin for graduate school,
+Before coming to UT Austin for graduate school,
 I did my undergraduate studies at
 Virginia Tech, where I earned degrees in [Mathematics](https://math.vt.edu/) and
 [Computational Modeling and Data Analytics (CMDA)](https://data.science.vt.edu/programs/cmda.html).
