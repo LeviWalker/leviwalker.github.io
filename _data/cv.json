@@ -4,7 +4,7 @@
     "#phone": "",
     "website": "https://leviwalker.github.io",
     "email": "ljwalker@my.utexas.edu",
-    "summary": "I am current Ph.D. student in the Oden Institute for Computational Engineering and Sciences at the University of Texas at Austin.",
+    "#summary": "I am a current Ph.D. student in the Oden Institute for Computational Engineering and Sciences at the University of Texas at Austin.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -34,23 +34,52 @@
       "endDate": "August 2026",
       "#summary": "summary",
       "#highlights": ["hi", "hi 2"]
+    },
+    {
+      "company": "NASA Langley Research Center &ndash; Hypersonic Airbeathing Propulsion Branch",
+      "position": "Computational Engineering Intern",
+      "#website": "nasa.gov",
+      "startDate": "June 2025",
+      "endDate": "August 2025",
+      "#summary": "summary",
+      "#highlights": ["hi", "hi 2"]
+    },
+    
+    {
+      "company": "NASA Langley Research Center &ndash; Aerothermodynamics Branch",
+      "position": "Computational Engineering Intern",
+      "#website": "nasa.gov",
+      "startDate": "June 2024",
+      "endDate": "August 2024",
+      "#summary": "summary",
+      "#highlights": ["hi", "hi 2"]
+    },
+    {
+      "company": "NASA Langley Research Center &ndash; Aerothermodynamics Branch",
+      "position": "Data Analytics &amp; Machine Learning Intern",
+      "website": "nasa.gov",
+      "startDate": "June 2023",
+      "endDate": "August 2023",
+      "#summary": "summary",
+      "#highlights": ["hi", "hi 2"]
     }
   ],
   "education": [
     {
       "institution": "The University of Texas at Austin",
       "area": "Ph.D. Computational Science, Engineering, and Mathematics",
-      "studyType": "phd hi ",
+      "studyType": "",
       "startDate": "2026",
-      "endDate": "present",
+      "#endDate": "present",
       "gpa": null,
-      "courses": []
+      "courses": [],
+      "summary": "CSEM Fellowship Recipient"
     },
     {
       "institution": "Virginia Polytechnic Institute and State University",
       "area": "B.S. Mathematics",
       "studyType": "",
-      "startDate": "",
+      "startDate": "2022",
       "endDate": "2026",
       "gpa": null,
       "courses": []
@@ -59,7 +88,7 @@
       "institution": "Virginia Polytechnic Institute and State University",
       "area": "B.S. Computational Modeling and Data Analytics",
       "studyType": "",
-      "startDate": "",
+      "startDate": "2022",
       "endDate": "2026",
       "gpa": null,
       "courses": []
