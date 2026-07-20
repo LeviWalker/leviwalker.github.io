@@ -1,0 +1,78 @@
+/* ==========================================================================
+    DEFAULT THEME - DARK VERSION
+    ========================================================================== */
+
+
+
+$utexas_burnt_orange        : #bf5700;
+$utexas_white               : #ffffff;
+$utexas_charcoal            : #333f48;
+$utexas_tangerine           : #f8971f;
+$utexas_sunshine            : #ffd600;
+$utexas_cactus              : #a6cd57;
+$utexas_turtle_pond         : #579d42;
+$utexas_turqoise            : #00a9b7;
+$utexas_bluebonnet          : #005f86;
+$utexas_shade               : #9cadb7;
+$utexas_limestone           : #d6d2c4;
+
+
+
+/* Color codes used for the theme */
+$primary-color              : #0ea1c5;
+$gray                       : #7a8288;
+$dark-gray                  : mix(#000, $gray, 40%);
+$darker-gray                : mix(#000, $gray, 60%);
+$light-gray                 : mix(#fff, $gray, 50%);
+
+$background                 : #474747;
+$background-light           : mix(#fff, $background, 80%);
+$background-lighter         : mix(#fff, $background, 90%);
+$text                       : #ffffff;
+$link                       : mix(#00f,#ffffff, 40%);
+// $link                       : #0ea1c5;
+$link-dark                  : mix(#000, $link, 25%);
+$link-light                 : mix(#fff, $link, 25%);
+
+/* Color codes used for the site */
+$danger-color               : #ee5f5b;
+$info-color                 : #2f7f93;
+$notice-color               : #7a8288;
+$success-color              : #62c462;
+$warning-color              : #f89406;
+
+/* Other basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Dark theme for the site */
+html[data-theme="dark"] {
+    --global-base-color                 : #{$utexas_turqoise};
+    // --global-bg-color                   : #{$darker-gray};
+    // --global-footer-bg-color            : #{$darker-gray};
+    --global-bg-color                   : #{$utexas_charcoal};
+    --global-footer-bg-color            : #{$utexas_charcoal};
+    --global-border-color               : #{$utexas_shade};
+    --global-dark-border-color          : #{$utexas_shade};
+    --global-code-background-color      : #fafafa;
+    --global-code-text-color            : #{$darker-gray};
+    --global-fig-caption-color          : #{$light-gray};
+    --global-link-color                 : #{$utexas_turqoise};
+    --global-link-color-hover           : #{$utexas_turqoise};
+    --global-link-color-visited         : #{$utexas_turqoise};
+    // --global-link-color                 : #{$utexas_white};
+    // --global-link-color-hover           : #{$utexas_white};
+    // --global-link-color-visited         : #{$utexas_white};
+    --global-masthead-link-color        : #{$utexas_white};
+    --global-masthead-link-color-hover  : #{$utexas_white};
+    --global-text-color                 : #{$text};
+    --global-text-color-light           : #f3f3f3;
+    --global-thead-color                : #{$background-lighter};
+}
+

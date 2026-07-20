@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "utexas" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Levi Walker"
 title_separator          : "-"
 name                     : &name "Levi Walker"
@@ -28,7 +28,7 @@ author:
   pronouns         :   
   bio              : "Ph.D. Student at the Oden Institute for Computational Engineering and Sciences"
   location         : "Austin, Texas"
-  employer         : "University of Texas at Austin"
+  employer         : "The University of Texas at Austin"
   uri              : # URL
   email            : "ljwalker@my.utexas.edu" 
 

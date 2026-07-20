@@ -1,0 +1,70 @@
+/* ==========================================================================
+    DEFAULT THEME - LIGHT VERSION
+    ========================================================================== */
+$utexas_burnt_orange        : #bf5700;
+$utexas_white               : #ffffff;
+$utexas_charcoal            : #333f48;
+$utexas_tangerine           : #f8971f;
+$utexas_sunshine            : #ffd600;
+$utexas_cactus              : #a6cd57;
+$utexas_turtle_pond         : #579d42;
+$utexas_turqoise            : #00a9b7;
+$utexas_bluebonnet          : #005f86;
+$utexas_shade               : #9cadb7;
+$utexas_limestone           : #d6d2c4;
+
+/* Color codes used for the theme */
+$primary-color              : #2f7f93;
+$gray                       : #7a8288;
+$dark-gray                  : mix(#000, $gray, 40%);
+$darker-gray                : mix(#000, $gray, 60%);
+$light-gray                 : mix(#fff, $gray, 50%);
+$lighter-gray               : mix(#fff, $gray, 90%);
+
+/* Color codes used for the site */
+$danger-color               : #ee5f5b;
+$info-color                 : #2f7f93;
+$notice-color               : #7a8288;
+$success-color              : #62c462;
+$warning-color              : #f89406;
+
+/* Other basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+// $link-color : #52adc8;
+$link-color : #{$dark-gray};
+
+/* Default light theme for the site */
+:root {
+    --global-base-color                 : #{$utexas_burnt_orange};
+    --global-bg-color                   : #{$utexas_white};
+    --global-footer-bg-color            : #f2f3f3;
+    --global-border-color               : #{$lighter-gray};
+    --global-dark-border-color          : #bdc1c4;
+    --global-code-background-color      : #fafafa;
+    --global-code-text-color            : #{$darker-gray};
+    --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
+    --global-link-color                 : #{$utexas_burnt_orange};
+    --global-link-color-hover           : #{$utexas_burnt_orange};
+    --global-link-color-visited         : #{$utexas_burnt_orange}; 
+    --global-masthead-link-color        : #{$utexas_charcoal};
+    // --global-masthead-link-color        : #{$dark-gray};
+    // --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
+    --global-masthead-link-color-hover  : #{$utexas_charcoal};    
+    --global-text-color                 : #{$utexas_charcoal};
+    --global-text-color-light           : #{$utexas_charcoal};
+    --global-thead-color                : #{$utexas_charcoal};
+}
+
+
+
+// $global-font-family: "Source Sans 3";
+// $header-font-family: "Source Sans 3";
+// $caption-font-family: "Source Sans 3";

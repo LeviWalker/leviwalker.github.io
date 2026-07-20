@@ -2,7 +2,7 @@
 layout: archive
 title: "Curriculum Vitae"
 permalink: /cv-json/
-author_profile: false
+# author_profile: false
 redirect_from:
   - /resume-json
 ---
